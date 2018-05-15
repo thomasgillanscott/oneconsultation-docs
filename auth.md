@@ -37,6 +37,34 @@ Once you have done this, the application is listed as an Enterprise Application 
 
 From here you can monitor usage, review permissions and remove the application which will revoke the permission.
 
+## Permissions
+
+During the Admin Consent process, you will be shown the permissions which OneConsultation is requesting. They are:
+
+ - Access the directory as the signed-in user
+ - Read directory data
+ - Sign in and read user profile
+
+These permissions allow us to read the profile of the signed-in user and gives us the same access to data in AD as the signed-in user.
+
+The intent behind the permissions request is twofold:
+
+ - Reading the tenant ID of the signed-in user (to enable us to route you to the correct consultation rooms)
+ - Reading the list of groups a user is a member of (for the future ability to restrict access based on AD group – today this is done by URI whitelisting)
+
+
+**Access directory as the signed-in user**: Allows the app the same access to data in the organization's directory as the signed-in user.
+
+**Read directory data**: Allows the app to read all of the data in the organization's directory, such as users, groups, and apps, and their associated navigation properties. 
+
+**Enable sign-in and read user profile**: Allows users to sign in to the app and allows the app to read the full profile of the signed-in user. The full profile includes all of the declared properties of the [User](https://msdn.microsoft.com/library/azure/ad/graph/api/entity-and-complex-type-reference#user-entity) entity. User.Read allows the app to read the following basic company information of the signed-in user (through the [Tenant Detail](https://msdn.microsoft.com/library/azure/ad/graph/api/entity-and-complex-type-reference#tenantdetail-entity) object): tenant ID, tenant display name, and verified domains. The app cannot read navigation properties, such as manager or direct reports. The app cannot read the user's password.
+
+There’s more detail about the permissions scopes here, which provides a good table of the permissions and the description:
+<https://msdn.microsoft.com/library/azure/ad/graph/howto/azure-ad-graph-api-permission-scopes>.
+
+
+
+
 
 
 
