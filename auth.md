@@ -33,7 +33,7 @@ You’ll notice that Azure explicitly lists out the permissions which you are gr
 
 Once you have done this, the application is listed as an Enterprise Application in your Azure Portal. At any time you can review the list of applications with permission in your Azure tenant using the Portal. Here’s an example of OneConsultation installed in a test tenant:
 
-![alt text](https://github.com/modalitysystems/oneconsultation-docs/blob/master/images/auth/2.png "OneConsultatino AD Application")
+![alt text](https://github.com/modalitysystems/oneconsultation-docs/blob/master/images/auth/2.jpg "OneConsultatino AD Application")
 
 From here you can monitor usage, review permissions and remove the application which will revoke the permission.
 
