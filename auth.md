@@ -27,13 +27,13 @@ To grant this access, visit this URL and authenticate as a Office 365 Admin: <ht
 
 You’ll see a box similar to this:
 
-![alt text](https://github.com/modalitysystems/oneconsultation-docs/blob/master/images/auth/1.png "Azure AD Admin Consent")
+![alt text](https://github.com/modalitysystems/oneconsultation-docs/master/images/auth/1.png "Azure AD Admin Consent")
 
 You’ll notice that Azure explicitly lists out the permissions which you are granted to this application, which are minimal and designed so that we can verify the identity of the user, and the tenant ID. You should review the permissions and once you are happy, click Accept. This will grant the application those permissions until they are revoked. 
 
 Once you have done this, the application is listed as an Enterprise Application in your Azure Portal. At any time you can review the list of applications with permission in your Azure tenant using the Portal. Here’s an example of OneConsultation installed in a test tenant:
 
-![alt text](https://github.com/modalitysystems/oneconsultation-docs/blob/master/images/auth/2.jpg "OneConsultatino AD Application")
+![alt text](https://github.com/modalitysystems/oneconsultation-docs/master/images/auth/2.jpg "OneConsultatino AD Application")
 
 From here you can monitor usage, review permissions and remove the application which will revoke the permission.
 
