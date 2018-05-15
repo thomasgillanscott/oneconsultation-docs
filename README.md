@@ -7,8 +7,8 @@ How the setup and on-boarding process works, from first contact to fully-running
 ## [Authentication Detail](auth.md)
 A deep dive into how the authentication process in OneConsultation works.
 
-## [Microsoft Skype for Business & Lync Client Compatability](clients.md)
-A matrix of supported clients that can be used with OneConsultation.
+## [Microsoft Skype for Business / Lync Environment & Compatability](clients.md)
+Information about supported environments and clients that can be used with OneConsultation.
 
 ## [End-User Browser Compatability](browsers.md)
 Supported browsers that can be used by end-users for video consultation.
