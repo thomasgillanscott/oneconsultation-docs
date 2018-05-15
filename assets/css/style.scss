@@ -107,15 +107,15 @@ a {
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 
   @include large {
-    padding: 4rem 5rem;
+    padding: 1rem 2rem;
   }
 
   @include medium {
-    padding: 2rem 3rem;
+    padding: 1rem 2rem;
   }
 
   @include small {
-    padding: 1rem 0.5rem;
+    padding: 1rem 2em;
   }
 }
 
@@ -192,7 +192,6 @@ a {
     margin-bottom: 1rem;
     font-weight: normal;
     color: $section-headings-color;
-	color: red;
   }
 
   p {
