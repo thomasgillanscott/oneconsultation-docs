@@ -15,15 +15,15 @@ At any time, this application can be removed from your Azure application list an
 
 ## Technical Detail
 
-We have a multi-tenant application Azure AD application, which requires admin consent before it can read  AD data for authentication. The security model we use is based on the flow here: https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios (specifically the section on Multi-tenanted Applications). 
+We have a multi-tenant application Azure AD application, which requires admin consent before it can read  AD data for authentication. The security model we use is based on the flow here: <https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios> (specifically the section on Multi-tenanted Applications). 
 
-From (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications#overview-of-the-consent-framework): *The Azure AD consent framework makes it easy to develop multi-tenant web and native client applications. These applications allow sign-in by user accounts from an Azure AD tenant, different from the one where the application is registered…the framework is based on a user or an administrator giving consent to an application that asks to be registered in their directory, which may involve accessing directory data.*
+From <https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications#overview-of-the-consent-framework>: *The Azure AD consent framework makes it easy to develop multi-tenant web and native client applications. These applications allow sign-in by user accounts from an Azure AD tenant, different from the one where the application is registered…the framework is based on a user or an administrator giving consent to an application that asks to be registered in their directory, which may involve accessing directory data.*
 
 For example, if a web client application needs to read calendar information about the user from Office 365, that user is required to consent to the client application first. After consent is given, the client application will be able to call the Microsoft Graph API on behalf of the user, and use the calendar information as needed.…The consent framework is built on OAuth 2.0 and its various flows, such as authorization code grant and client credentials grant, using public or confidential clients. By using OAuth 2.0, Azure AD makes it possible to build many different types of client applications, such as on a phone, tablet, server, or a web application, and gain access to the required resources.
 
 An administrator can provide consent for all users in the tenant, meaning that each user is not presented with their own consent box – this is a favorable user experience.
 
-To grant this access, visit this URL and authenticate as a Office 365 Admin: https://login.microsoftonline.com/common/oauth2/authorize?resource=https://graph.windows.net&response_type=code&client_id=5637a6d7-9ce0-4788-b498-e96008b4ccb9&redirect_uri=https://admin.oneconsultation.net&scope=openid&prompt=admin_consent
+To grant this access, visit this URL and authenticate as a Office 365 Admin: <https://login.microsoftonline.com/common/oauth2/authorize?resource=https://graph.windows.net&response_type=code&client_id=5637a6d7-9ce0-4788-b498-e96008b4ccb9&redirect_uri=https://admin.oneconsultation.net&scope=openid&prompt=admin_consent>
 
 You’ll see a box similar to this:
 
