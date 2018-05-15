@@ -1,10 +1,10 @@
-#OneConsultation Authentication Flow
+# OneConsultation Authentication Flow
 
 OneConsutation uses an authentication process to limit who can access the Admin Portal to see users who are waiting for an consultation, and to enable them to begin the constulation process.
 
 This page describes that authentication process.
 
-##High Level Summary
+## High Level Summary
 
 As part of the initial on-boarding process, a OneConsultation Azure Actie Directory application is installed in your Azure tenent. This means that we can use Azure AD to “prove” that someone is a user from your somain and grant them access, without requiring them to enter another set of credentials. 
 
@@ -13,7 +13,7 @@ In order for this to work, you need to consent that our application can use your
 The actual data we ask for and use is only that the authentication was successful and the ID of the Office 365 Tenant. This is all we need to verify that a user is authorized and to place them into the correct tenant. We do not ask for, or have access to, any more detailed AD/user data, nor access to any Graph API data.  If you’ve ever used a “sign in with Google”, “connect with Facebook” etc to log into other sites that aren’t Google/Facebook, this is the same process).
 At any time, this application can be removed from your Azure application list and permission revoked. In addition, Azure provides a level of reporting around access and usage of the application.
 
-##Technical Detail
+## Technical Detail
 
 We have a multi-tenant application Azure AD application, which requires admin consent before it can read  AD data for authentication. The security model we use is based on the flow here: https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios (specifically the section on Multi-tenanted Applications). 
 
