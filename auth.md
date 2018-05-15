@@ -8,7 +8,7 @@ This page describes that authentication process.
 
 As part of the initial on-boarding process, a OneConsultation Azure Actie Directory application is installed in your Azure tenent. This means that we can use Azure AD to “prove” that someone is a user from your somain and grant them access, without requiring them to enter another set of credentials. 
 
-In order for this to work, you need to consent that our application can use your AD tenant for this purpose. *This is a common security practice and is the recommended Microsoft approach for securing SaaS applications in Azure.* There is a good high-level example walkthrough here: https://docs.microsoft.com/en-us/azure/architecture/multitenant-identity/
+In order for this to work, you need to consent that our application can use your AD tenant for this purpose. **This is a common security practice and is the recommended Microsoft approach for securing SaaS applications in Azure.** There is a good high-level example walkthrough here: <https://docs.microsoft.com/en-us/azure/architecture/multitenant-identity/>
 
 The actual data we ask for and use is only that the authentication was successful and the ID of the Office 365 Tenant. This is all we need to verify that a user is authorized and to place them into the correct tenant. We do not ask for, or have access to, any more detailed AD/user data, nor access to any Graph API data.  If you’ve ever used a “sign in with Google”, “connect with Facebook” etc to log into other sites that aren’t Google/Facebook, this is the same process).
 At any time, this application can be removed from your Azure application list and permission revoked. In addition, Azure provides a level of reporting around access and usage of the application.
