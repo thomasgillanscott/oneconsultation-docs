@@ -26,6 +26,6 @@ OneConsultation has been designed to work with nearly every type of Lync or Skyp
 
 ## Client Support
 
-**Desktop Clients** : OneConsultation works with all Skype for Business and Lync client versions, including those for Mac.
+**Desktop Clients** : OneConsultation works with all Skype for Business and Lync client versions, including those for Mac..
 
 **Mobile Clients** : [testing in progress. please check back later.] 
