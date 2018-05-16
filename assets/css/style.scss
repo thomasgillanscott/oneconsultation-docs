@@ -104,7 +104,8 @@ a {
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
-  background-image: https://github.com/modalitysystems/oneconsultation-docs/blob/master/assets/cover.jpg?raw=true;
+  background-image: url("https://github.com/modalitysystems/oneconsultation-docs/blob/master/assets/cover.jpg?raw=true");
+  background-repeat: no-repeat
 
   @include large {
     padding: 1rem 2rem;
