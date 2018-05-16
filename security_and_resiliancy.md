@@ -12,6 +12,14 @@ For more information about how security is managed within Microsoft Azure, visit
 
 For information about the different compliance offerings which Microsoft Azure can support worldwide, see the [current list of compliance offerings](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).
 
-## Data
+## Data Security
 
 The system does not store any user data at rest. User information gathered via the questions users are asked is only stored in memory for the purposes of diplaying in the Admin Portal, and is never persisted to an at rest service.
+
+## Resiliancy
+
+OneConsultation is hosted entirely in Microsoft Azure and makes use of multiple Azure offerings to ensure a consistant user experience.
+
+The underlying video bridging service which OneConsultation uses is also hosted on the Microosft Azure platform, providing local connectivity ingress points to the service in multiple geographical regions.
+
+The service has multiple conference nodes in each region; in the event of node failure the system will move onto the next available node in that region. If all nodes are not available in a region then the service can failover to the next region. This provides multiple points of failure in the service. Uptime of regions and nodes in monitored by Modality Systems Support Team which operate a 24/7 "follow the sun" support and response service.
