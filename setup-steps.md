@@ -69,10 +69,3 @@ In order to use OneConsultation, ensure web-browser clients have UDP access outb
 These are worldwide nodes to ensure that wherever users connect to the service from, they are routed to the most appropriate local node for the best audio & video experience.
 
 
-
-
-
-
-
-----------------------
-
