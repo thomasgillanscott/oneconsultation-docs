@@ -57,7 +57,7 @@ For both production and trial, it is possible to mask the provided portal URL wi
 ## (Optional Step 4: check network firewall rules)
 Once in production it's likely that most users accessing OneConsultation will be doing so from outside of your corporate firewall, so no changes are necessary. Whilst conducting trials, however, you may be using OneConsultation within your corporate network boundary, in which case you should make sure that sufficient access is enabled to reach OneConsultation's video bridging services.
 
-In order to use OneConsultation, ensure web-browser clients have UDP access outbound to:
+In order to use OneConsultation, ensure web-browser clients have access outbound to:
 
  - 51.140.26.197
  - 51.140.115.27
@@ -65,7 +65,12 @@ In order to use OneConsultation, ensure web-browser clients have UDP access outb
  - 13.94.146.220
  - 40.71.84.17
  - 13.92.129.46
-
+ 
+and to ensure that web-browser clients can use the following outbound ports in order to establish an audio/video call session:
+ 
+ - TCP 33000–39999  (H.323 (Q.931/H.245 signaling)) 
+ - TCP/UDP 40000–49999 (RTP/RTCP/RDP/DTLS/RTMP/STUN/TURN)
+ 
 These are worldwide nodes to ensure that wherever users connect to the service from, they are routed to the most appropriate local node for the best audio & video experience.
 
 
