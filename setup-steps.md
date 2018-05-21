@@ -8,7 +8,7 @@ OneConsultation is a fully managed hosted service, so there's not a lot of time-
 ----
 Before you can start using OneConsultation (even a trial) you need to tell us, so that we can provision the service for you. Contact your Modality Systems Account Manager, or email [labs@modalitysystems.com](mailto:labs@modalitysystems.com).
 
-We will provide you with details of your portal address and a named point of contact to work with throughout the remaining setup steps.
+We will provide you with details of your portal address and a named point of contact to work with throughout the remaining setup steps. Typically the entire process, from telling us to having customer make test consultations takes between 2-4 working days, provided Step 2 is completed promptly (see below).
 
 ## Step 2 : find your Office 365 Tenant ID
 ----
