@@ -1,5 +1,5 @@
-## [Getting Started](getting-started.md)
-About OneConsultation, the problems it solves and how it integrates with your existing systems.
+## [Getting Started FAQs](getting-started.md)
+About OneConsultation, the problems it solves and how it integrates with your existing systems. A living collection of FAQs which is updated based on your feedback.
 
 ## [Setup Steps](setup-steps.md)
 How the setup and on-boarding process works, from first contact to fully-running service.
