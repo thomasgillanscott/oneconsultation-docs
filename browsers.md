@@ -22,4 +22,4 @@ In general terms, OneConsultation should work with any WebRTC-compatible web bro
 | PC (Windows) | Internet Explorer      |    No |
 | Android | Default Browser      |    Yes |
 
-To test a specific browser or operating system that is not in this list, please use the [WebRTC Testing Tool]https://test.webrtc.org/ in the first instance. If you require specific guidance or support, please contact your Account Manager or Support Team contact.
+To test a specific browser or operating system that is not in this list, please use the [WebRTC Testing Tool](https://test.webrtc.org/) in the first instance. If you require specific guidance or support, please contact your Account Manager or Support Team contact.
