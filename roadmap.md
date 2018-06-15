@@ -4,7 +4,7 @@
 
 # :rocket:  Already Delivered / Rolling out in Q2 2018
 
-* Make test call' button - ability for user to perform a test call to verify their webcam, microphone and speakers work, and to test the network. A 2 second video echo plays back the customer's video. The call automatically ends after a set period of time. Currently an 'opt-in' experience for users.
+* 'Make test call' button - ability for user to perform a test call to verify their webcam, microphone and speakers work, and to test the network. A 2 second video echo plays back the customer's video. The call automatically ends after a set period of time. 
 * Video device switching - ability for users to change the camera used when in a call.
 * Faster meeting setup - meetings start faster, without the 1 minute delay when starting a consultation.
 * Audio device switching capabilities.
