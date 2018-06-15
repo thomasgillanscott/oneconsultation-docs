@@ -23,3 +23,5 @@ Information about supported environments and clients that can be used with OneCo
 ## [End-User Browser Compatability](browsers.md)
 Supported browsers that can be used by end-users for video consultation.
 
+## [OneConsultation Capabilities Roadmap](roadmap.md)
+Guidance for planned future capabilities
