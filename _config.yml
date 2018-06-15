@@ -3,3 +3,5 @@ title: docs.oneconsultation.net
 description: Technical documentation for OneConsultation
 url: "https://modalitysystems.github.io/oneconsultation-docs"
 baseurl: "/oneconsultation-docs"
+plugins:
+  - jemoji
