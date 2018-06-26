@@ -16,6 +16,10 @@ OneConsultation does not require a meeting to be created in Microsoft Exchange, 
 
 WebRTC is used to present audio & video content to users in the browser. In order for this to work, users need to using a modern browser. A [matrix of supported clients is available](browsers.html).
 
+## What is WebRTC?
+
+WebRTC is the technology used to deliver plugin-less video consultations in a web browser. For more information, see [What is WebRTC?](webrtc.html)
+
 ## How are meetings created?
 The process begins when a user visits the portal page and answers some pre-defined, configurable questions. At that point, a new dynamic meeting is created. The user is placed into the meeting. At the same time, the meeting is shown on the Admin Portal, enabling any authenticated user to join the meeting using the Skype for Business client.
 
