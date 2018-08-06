@@ -17,6 +17,8 @@
 * Improving customer experience for API users - ability for a 3rd party to submit user questions on behalf of user and then navigate directly to meeting room without prompting user for questions.
 * Ability to send a join link to a mobile device using SMS
 * Dedicated 'on scene' view for mobile devices for improved user experience
+* Additional reporting data for identifying consultations which may have encountered issues
+* 'First run' Admin Portal welcome tour
 
 # :calendar: Coming Q4 2018+
 
