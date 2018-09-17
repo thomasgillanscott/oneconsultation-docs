@@ -19,9 +19,12 @@
 * Dedicated 'on scene' view for mobile devices for improved user experience
 * Additional reporting data for identifying consultations which may have encountered issues
 * 'First run' Admin Portal welcome tour
+* Auto-dial back
+* Support for using the Microsoft Teams client in addition to the Skype for Business client
 
 # :calendar: Coming Q4 2018+
 
+* Recording in Azure
 * Ability for Skype for Business to present desktop/program
 * Tenant-specific CSS - ability for tenents to supply their own CSS file to change the appearance of OneConsultation.
 * Tenant-level option to show names of Skype for Business users in OneConsultation
