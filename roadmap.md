@@ -12,7 +12,7 @@
 * 'Report a Problem' button to help us improve your experience and gather your feedback.
 * Configurable Disconnect button - ability for tenant-specific code to execute when the Disconnect button is triggered by a user. This is to enable better integration with 3rd party portals.
 
-# :hourglass_flowing_sand: Coming in Q3 2018
+# :hourglass_flowing_sand: Rolling out in Q3 2018
 
 * Improving customer experience for API users - ability for a 3rd party to submit user questions on behalf of user and then navigate directly to meeting room without prompting user for questions.
 * Ability to send a join link to a mobile device using SMS
