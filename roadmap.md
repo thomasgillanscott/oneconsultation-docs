@@ -1,6 +1,6 @@
 # OneConsultation Capabilities Roadmap
 
-## Important: This document reflects Modality System's current expectations and plans for OneConsultation. However, dates and individual features may change and should be relied upon in making purchasing decisions.
+## Important: This document reflects Modality System's current expectations and plans for OneConsultation. However, dates and individual features may change and should not be relied upon in making purchasing decisions.
 
 # :rocket:  Already Delivered Q3 2018
 
