@@ -4,6 +4,8 @@ The OneConsultation Technical Documentation site provides access to all of the p
 
 For more general and non-technical information about the problems that OneConsultation solves and how it can add value to your organisation, visit our [OneConsultation site](https://oneconsultation.net).
 
+To check the status of OneConsultation at any time, or to review scheduled maintenance or known incidents, please visit and bookmark out status page: [status.oneconsultation.net](https://status.oneconsultation.net)
+
 
 ## [Getting Started FAQs](getting-started.md)
 About OneConsultation, the problems it solves and how it integrates with your existing systems. A living collection of FAQs which is updated based on your feedback.
