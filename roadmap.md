@@ -4,16 +4,6 @@
 
 # :rocket:  Already Delivered Q3 2018
 
-* 'Make test call' button - ability for user to perform a test call to verify their webcam, microphone and speakers work, and to test the network. A 2 second video echo plays back the customer's video. The call automatically ends after a set period of time. 
-* Video device switching - ability for users to change the camera used when in a call.
-* Audio device switching capabilities.
-* Reporting Page showing usage and call quality statistics, plus download to Microsoft Excel.
-* Desktop notification that user is waiting for consultation
-* 'Report a Problem' button to help us improve your experience and gather your feedback.
-* Configurable Disconnect button - ability for tenant-specific code to execute when the Disconnect button is triggered by a user. This is to enable better integration with 3rd party portals.
-
-# :hourglass_flowing_sand: Rolling out in Q3 2018
-
 * Improving customer experience for API users - ability for a 3rd party to submit user questions on behalf of user and then navigate directly to meeting room without prompting user for questions.
 * Ability to send a join link to a mobile device using SMS
 * Dedicated 'on scene' view for mobile devices for improved user experience
@@ -22,7 +12,13 @@
 * Auto-dial back
 * Support for using the Microsoft Teams client in addition to the Skype for Business client
 
-# :calendar: Coming Q4 2018+
+# :hourglass_flowing_sand: Rolling out in Q4 2018
+
+* Restrict access to specific rooms via AD Security Groups
+* Ability for organisations to audit OneConsultation activity directly to their own tenant
+* Ability to display customisable images on page during video consultation
+
+# :calendar: Coming Q1 2019+
 
 * Recording in Azure
 * Ability for Skype for Business to present desktop/program
