@@ -5,13 +5,12 @@ OneConsultation is a fully managed hosted service, so there's not a lot of time-
 # To start using OneConsultation (production or trial)
 
 ## Step 1 : tell us!
-----
+
 Before you can start using OneConsultation (even a trial) you need to tell us, so that we can provision the service for you. Contact your Modality Systems Account Manager, or email [labs@modalitysystems.com](mailto:labs@modalitysystems.com).
 
 We will provide you with details of your portal address and a named point of contact to work with throughout the remaining setup steps. Typically the entire process, from telling us to having customer make test consultations takes between 2-4 working days, provided Step 2 is completed promptly (see below).
 
 ## Step 2 : find your Office 365 Tenant ID
-----
 
 Your Office 365 tenant ID is a globally unique identifier (GUID) that is different than your tenant name or domain. It's allocated to you by Microsoft and never changes.
 
@@ -42,7 +41,7 @@ Your tenant ID is listed in the output.
 Once you have your tenant ID, provide it to us along with the additional information in Step 3.
 
 ## Step 3: Decide on users, room areas and customisations.
-----
+
 For trials, all users in your organisation are automatically granted access to use OneConsultation, and a single room area is created. However, there are a number of customisations you can make during the trial process, before you progress from trial to production, or at any time when in production:
 
 ### Users
@@ -73,4 +72,15 @@ and to ensure that web-browser clients can use the following outbound ports in o
  
 These are worldwide nodes to ensure that wherever users connect to the service from, they are routed to the most appropriate local node for the best audio & video experience.
 
+## (Optional Step 5: Define granular permission scopes)
+By default, everyone in your organisation will have access to all your OneConsultation rooms. If that's not appropriate then you can specify more granular settings.
 
+Access to a specific room can be restricted to a specific single Azure AD Security Group. This provides the flexibility to move users in and out of the Security Group without needing to reconfigure their access in OneConsultation. Access to a room includes the ability to see consultations, reports and recordings (where enabled).
+
+To set up granular access, create or identify an Azure Active Directory Security Group. (not an on-premise AD group, or a Distribution/Office Group). Find the group in the [Azure Groups Management Blade](https://portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups), and select it to view full details:
+
+![Azure AD Management Blade](/images/azure-ad-groups.png)
+
+Make a note of the *Object ID* and provide this information to us when setting up your room (or to change an existing room setting). 
+
+**Be sure to select a *Security Group* and not any other type of group.**
