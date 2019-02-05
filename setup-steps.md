@@ -6,7 +6,7 @@ OneConsultation is a fully managed hosted service, so there's not a lot of time-
 
 ## Step 1 : tell us!
 
-Before you can start using OneConsultation (even a trial) you need to tell us, so that we can provision the service for you. Contact your Modality Systems Account Manager, or email [labs@modalitysystems.com](mailto:labs@modalitysystems.com).
+Before you can start using OneConsultation (even a trial) you need to tell us if you haven't already, so that we can provision the service for you. Contact your Modality Systems Account Manager, or email [labs@modalitysystems.com](mailto:labs@modalitysystems.com).
 
 We will provide you with details of your portal address and a named point of contact to work with throughout the remaining setup steps. Typically the entire process, from telling us to having customer make test consultations takes between 2-4 working days, provided Step 2 is completed promptly (see below).
 
@@ -40,7 +40,17 @@ Your tenant ID is listed in the output.
 
 Once you have your tenant ID, provide it to us along with the additional information in Step 3.
 
-## Step 3: Decide on users, room areas and customisations.
+## Step 3: Grant permission to our Azure AD application
+
+As part of the initial on-boarding process, a OneConsultation Azure Actie Directory application is installed in your Azure tenent. This means that we can use Azure AD to “prove” that someone is a user from your somain and grant them access, without requiring them to enter another set of credentials. You can find more information on this [here](https://modalitysystems.github.io/oneconsultation-docs/auth.html)
+
+An administrator can provide consent for all users in the tenant, meaning that each user is not presented with their own consent box – this is a favorable user experience.
+
+To grant this access, visit this URL and authenticate as a Office 365 Admin: https://login.microsoftonline.com/common/oauth2/authorize?resource=https://graph.windows.net&response_type=code&client_id=5637a6d7-9ce0-4788-b498-e96008b4ccb9&redirect_uri=https://admin.oneconsultation.net&scope=openid&prompt=admin_consent
+
+### At this point, you are ready to use the service for trials. Everything after this point is optional. 
+
+## Optional Step 4: Decide on users, room areas and customisations.
 
 For trials, all users in your organisation are automatically granted access to use OneConsultation, and a single room area is created. However, there are a number of customisations you can make during the trial process, before you progress from trial to production, or at any time when in production:
 
@@ -53,7 +63,7 @@ For both production and trial, it is possible to customise the appearance of the
 ### Vanity URL
 For both production and trial, it is possible to mask the provided portal URL with a vanity URL (for instance, *video.yourcompany.com*). To do this, you will need to create a CNAME entry for the desired subdomain, pointing to the URL we provided you. You will also need to inform us so we can configure the vanity URL, and provide the matching PFX certificate file and password.
 
-## (Optional Step 4: check network firewall rules)
+## Optional Step 5: check network firewall rules
 Once in production it's likely that most users accessing OneConsultation will be doing so from outside of your corporate firewall, so no changes are necessary. Whilst conducting trials, however, you may be using OneConsultation within your corporate network boundary, in which case you should make sure that sufficient access is enabled to reach OneConsultation's video bridging services.
 
 In order to use OneConsultation, ensure web-browser clients have access outbound to:
@@ -72,7 +82,7 @@ and to ensure that web-browser clients can use the following outbound ports in o
  
 These are worldwide nodes to ensure that wherever users connect to the service from, they are routed to the most appropriate local node for the best audio & video experience.
 
-## (Optional Step 5: Define granular permission scopes)
+## Optional Step 6: Define granular permission scopes
 By default, everyone in your organisation will have access to all your OneConsultation rooms. If that's not appropriate then you can specify more granular settings.
 
 Access to a specific room can be restricted to a specific single Azure AD Security Group. This provides the flexibility to move users in and out of the Security Group without needing to reconfigure their access in OneConsultation. Access to a room includes the ability to see consultations, reports and recordings (where enabled).
