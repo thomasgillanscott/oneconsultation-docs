@@ -38,7 +38,7 @@ Login-AzureRmAccount
 
 Your tenant ID is listed in the output.
 
-Once you have your tenant ID, provide it to us along with the additional information in Step 3.
+Once you have your tenant ID, provide it to us to activate your account.
 
 ## Step 3: Grant permission to our Azure AD application
 
