@@ -46,7 +46,7 @@ As part of the initial on-boarding process, a OneConsultation Azure Actie Direct
 
 An administrator can provide consent for all users in the tenant, meaning that each user is not presented with their own consent box – this is a favorable user experience.
 
-To grant this access, visit this URL and authenticate as a Office 365 Admin: [https://login.microsoftonline.com/common/oauth2/authorize?resource=https://graph.windows.net&response_type=code&client_id=5637a6d7-9ce0-4788-b498-e96008b4ccb9&redirect_uri=https://admin.oneconsultation.net&scope=openid&prompt=admin_consent](https://login.microsoftonline.com/common/oauth2/authorize?resource=https://graph.windows.net&response_type=code&client_id=5637a6d7-9ce0-4788-b498-e96008b4ccb9&redirect_uri=https://admin.oneconsultation.net&scope=openid&prompt=admin_consent)
+To grant this access, visit this URL and authenticate as a Office 365 Admin: [login.microsoftonline.com/common/oauth2/authorize?resource=https://graph.windows.net&response_type=code&client_id=5637a6d7-9ce0-4788-b498-e96008b4ccb9&redirect_uri=https://admin.oneconsultation.net&scope=openid&prompt=admin_consent](https://login.microsoftonline.com/common/oauth2/authorize?resource=https://graph.windows.net&response_type=code&client_id=5637a6d7-9ce0-4788-b498-e96008b4ccb9&redirect_uri=https://admin.oneconsultation.net&scope=openid&prompt=admin_consent)
 
 ### At this point, you are ready to use the service for trials. Everything after this point is optional. 
 
