@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 title: docs.oneconsultation.net
 description: Technical documentation for OneConsultation
-url: "https://modalitysystems.github.io/oneconsultation-docs"
+url: "https://docs.oneconsultation.net/"
 baseurl: "/oneconsultation-docs"
 plugins:
   - jemoji
