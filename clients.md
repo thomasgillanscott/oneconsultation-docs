@@ -22,7 +22,7 @@ OneConsultation has been designed to work with nearly every type of Lync or Skyp
 
 
 ---
-**Microsoft Teams** : It is not currently possible to use OneConsultation with Microsoft Teams, due to the availble integration options with Microsoft Teams. As Teams evolves to support integrations from 3rd-party video providers [as announced at Ignite 2017](https://www.microsoft.com/en-us/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) OneConsultation is well placed to take immediate advantage of this and offer it to all customers as soon as it becomes available.
+**Microsoft Teams** : Support for Microsoft Teams is in preview, with various different deployment options available. Please talk to us for more information or if you would like to use Microsoft Teams with OneConsultation.
 
 ## Client Support
 
