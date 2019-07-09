@@ -29,3 +29,11 @@ OneConsultation has been designed to work with nearly every type of Lync or Skyp
 **Desktop Clients** : OneConsultation works with all Skype for Business and Lync client versions, including those for Mac..
 
 **Mobile Clients** : [testing in progress. please check back later.] 
+
+## Hardware Requirements
+
+OneConsultation uses the standard Skype for Business or Microsoft Teams clients with no addition plugins or software. Therefore hardware requirements are the same as for Skype for Business or Microsoft Teams.
+
+System requirements for Skype for Business depend slightly on version and SKU but all combinations can be found here: https://products.office.com/en-gb/office-system-requirements
+
+System requirements for Microsoft Teams: https://docs.microsoft.com/en-us/microsoftteams/hardware-requirements-for-the-teams-app
