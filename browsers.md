@@ -16,12 +16,17 @@ In general terms, OneConsultation should work with any **WebRTC-compatible** web
 | ------------- |:-------------:| -----:|
 | iPhone (iOS 11+)      | Safari | Yes |
 | iPad (iOS 11+)      | Safari      |   Yes |
+| iPhone/iPad (iOS 11+)  | Other browsers   |  No\* |      
 | PC (Windows) | Chrome      |    Yes |
 | PC (Windows) | Firefox      |    Yes |
-| PC (Windows) | Edge\*      |    Yes |
+| PC (Windows) | Edge\*\*      |    Yes |
 | PC (Windows) | Internet Explorer      |    No |
 | Android | Default Browser      |    Yes |
 
-\*Edge support for WebRTC was added in Windows Version 1709 (Fall Creators Update). Versions prior to this are not supported.
+\* Apple does not extend support for camera and microphone use in browsers other than Safari. [Ref](http://www.openradar.me/33571214)
+
+\*\*Edge support for WebRTC was added in Windows Version 1709 (Fall Creators Update). Versions prior to this are not supported.
+
+
 
 To test a specific browser or operating system that is not in this list, please use the [WebRTC Testing Tool](https://test.webrtc.org/) in the first instance. If you require specific guidance or support, please contact your Account Manager or Support Team contact.
