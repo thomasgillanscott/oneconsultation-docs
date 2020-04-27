@@ -1,6 +1,6 @@
 # Microsoft Lync & Skype for Business Client Compatability
 
-OneConsultation has been designed to work with nearly every type of Lync or Skype for Business environemnt.
+OneConsultation has been designed to work with nearly every type of Lync or Skype for Business environment.
 
 ## Environment Support
 ---
