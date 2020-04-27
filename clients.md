@@ -4,7 +4,7 @@ OneConsultation has been designed to work with nearly every type of Lync or Skyp
 
 ## Environment Support
 ---
-**On-Premise** environments are supported.
+**On-Premises** environments are supported.
 
 **Skype for Business Online** environments are supported.
 
