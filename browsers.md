@@ -1,12 +1,12 @@
 # End User Browser Compatability
 
-OneConsultation has been designed to be both simple to user and accesible to as many people as possible.
+OneConsultation has been designed to be both simple to user and accessible to as many people as possible.
 
 There are **no plug-ins or client-side installations** needed to use OneConsultation.
 
 Everything is accessible via a web-browser, using WebRTC technology for audio & video streaming.
 
-Apart from an internet connection and a webam there's no special equipment or software needed.
+Apart from an internet connection and a webcam there's no special equipment or software needed.
 
 ## Supported Browsers
 
