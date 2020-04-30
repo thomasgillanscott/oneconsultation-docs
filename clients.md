@@ -6,6 +6,8 @@ OneConsultation has been designed to work with nearly every type of Lync or Skyp
 ---
 **On-Premises** environments are supported.
 
+**Microsoft Teams** environments are supported.
+
 **Skype for Business Online** environments are supported.
 
 **Hybrid** environments are supported.
@@ -22,13 +24,11 @@ OneConsultation has been designed to work with nearly every type of Lync or Skyp
 
 
 ---
-**Microsoft Teams** : Support for Microsoft Teams is in preview, with various different deployment options available. Please talk to us for more information or if you would like to use Microsoft Teams with OneConsultation.
 
 ## Client Support
 
 **Desktop Clients** : OneConsultation works with all Skype for Business and Lync client versions, including those for Mac..
 
-**Mobile Clients** : [testing in progress. please check back later.] 
 
 ## Hardware Requirements
 
