@@ -2,9 +2,9 @@
 
 The OneConsultation Technical Documentation site provides access to all of the platform documentation you will need to successfully setup and configure OneConsultation. It is designed for you, the technical implementer, platform architect or developer.
 
-For more general and non-technical information about the problems that OneConsultation solves and how it can add value to your organisation, visit our [OneConsultation site](https://modalitysoftware.com/products/oneconsultation).
+For more general and non-technical information about the problems that OneConsultation solves and how it can add value to your organisation, visit our [OneConsultation site](https://modalitysystems.com/software/oneconsultation).
 
-To check the status of OneConsultation at any time, or to review scheduled maintenance or known incidents, please visit and bookmark out status page: [status.oneconsultation.net](https://status.oneconsultation.net)
+To check the status of OneConsultation at any time, or to review scheduled maintenance or known incidents, please visit and bookmark our status page: [status.oneconsultation.net](https://status.oneconsultation.net)
 
 
 ## [Getting Started FAQs](getting-started.md)
