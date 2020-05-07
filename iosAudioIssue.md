@@ -1,4 +1,4 @@
-# Using OneConsultation with iOS 13.4
+# Using OneConsultation with iOS Devices
 
 We are aware of a potential issue with using OneConsultation with Safari, the default browser on Apple devices.
 
@@ -22,4 +22,4 @@ The reason there is no audio from the patient is that at some point whilst navig
 
 The fix is to close the existing web page and open a NEW page in Safari from the Apple device and then re-connect to the OneConsultation portal.  **It is important not to navigate away from this webpage once access to their microphone and webcam has been granted.**
 
-This issue is with the iOS software so we continuing our investigations to determine the exact behaviour causing this but in the meantime, we will post instructions on the OneConsultation public portal to mitigate this problem.  These instructions will only be displayed for those users joining using an Apple device.
+This issue is with the iOS software so we are continuing our investigations to determine the exact behaviour causing this but in the meantime, we will post instructions on the OneConsultation public portal to mitigate this problem.  These instructions will only be displayed for those users joining using an Apple device.
