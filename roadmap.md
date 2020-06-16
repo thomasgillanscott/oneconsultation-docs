@@ -2,7 +2,7 @@
 
 ## Important: This document reflects Modality System's current expectations and plans for OneConsultation. However, dates and individual features may change and should not be relied upon in making purchasing decisions.
 
-# :rocket:  Already Delivered to Q1 2019
+# :rocket:  Already Delivered 2019
 
 * Improving customer experience for API users - ability for a 3rd party to submit user questions on behalf of user and then navigate directly to meeting room without prompting user for questions.
 * Ability to send a join link to a mobile device using SMS
@@ -15,13 +15,15 @@
 * Recording in Azure (in Preview)
 * Ability for organisations to audit OneConsultation activity directly to their own tenant
 * Ability to move consultations between rooms
-
-# :hourglass_flowing_sand: Rolling out in Q2 2019
-
 * Ability to display customisable images on page during video consultation
 * Customisable banner to announce messages to all users in consultations, such as to announce delays, unexpected events etc.
 * Overview view of all rooms with counts of consultations, users etc.
 
+# :hourglass_flowing_sand: Rolling out in Q2 2020
+
+* 3rd party and group consultations 
+* Screen sharing during consultations 
+* Recording consultations (please note this functionality has its own set of technical pre requisites) 
 
 # :calendar: Coming Q2 2019+
 
