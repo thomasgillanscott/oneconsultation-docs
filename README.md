@@ -28,4 +28,8 @@ Supported browsers that can be used by end-users for video consultation.
 ## [OneConsultation Capabilities Roadmap](roadmap.md)
 Guidance for planned future capabilities
 
+## [Frequently Asked Questions](faqs.md)
+Answers to some FAQs on OneConsultation. 
 
+## [Troubleshooting guidance](troubleshooting.md)
+Experiencing issues with OneConsultation? Check here for some basic advice and fixes.
