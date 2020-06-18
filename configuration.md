@@ -58,6 +58,8 @@ The following settings are configured at a tenant level and applied to all rooms
 | useWebRTCJoinLink             | If false, users join consultation via SIP link in Teams/Skype client. If true, launches web interface to join consultation. |
 | ShowConsultationDesktopShare  | If true, users can initiate Desktop Sharing in consultation. Requires modern browser. |
 | UseTeamsWebLink               | If false, uses SIP link. If true, uses HTTP Teams join link.|
+| GroupSessionsShowWebLink      | If false, uses SIP link for joining Group Sessions. If true, launches web interface.
+| GroupSessionsShowControlLink  | Show or hide the Control pane for Group Sessions.
 
 The following settings can be configured per-room
 
