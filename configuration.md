@@ -64,3 +64,15 @@ The following settings can be configured per-room
 | Name          | Description   |
 | ------------- |:-------------:|
 ShowAdHocRecordingButton        | Show recording button on consultation. *Requires additional setup steps.*|
+
+## Group Session Rooms
+
+The following settings can be configured per-room
+
+| Name          | Description   |
+| ------------- |:-------------:|
+GroupSessionName | The name of the Group Session room, shown at the top of the public page.
+GroupSessionType | The type of Group Session. If 1, patients can see each other. If 2, patients can only see users who join using the Admin Access Code. |
+AdminAccessCode | Code used by non-public staff. These people will have access to control the meeting, see all participants etc. This code should not be shared publicly.  |
+PublicAccessCode | Public access code to join session. |
+| AD Group ID                              | If provided, only users in the specific AD Group will have access to the room. If blank, all users in tenant will have access.
