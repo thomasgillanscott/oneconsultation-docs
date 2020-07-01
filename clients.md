@@ -1,6 +1,6 @@
-# Microsoft Lync & Skype for Business Client Compatability
+# Microsoft Teams and Skype for Business Client Compatability
 
-OneConsultation has been designed to work with nearly every type of Lync or Skype for Business environment.
+OneConsultation has been designed to work with Microsoft Teams and Skype for Business. On-prem, hybrid and Office 365 versions of Skype for Business are supported
 
 ## Environment Support
 ---
@@ -11,17 +11,6 @@ OneConsultation has been designed to work with nearly every type of Lync or Skyp
 **Skype for Business Online** environments are supported.
 
 **Hybrid** environments are supported.
-
-
----
-**Skype for Business 2016** environments are supported.
-
-**Skype for Business 2015** environments are supported.
-
-**Lync 2013** environments are supported.
-
-**Lync 2010** environments are supported.
-
 
 ---
 
